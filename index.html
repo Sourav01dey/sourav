@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my protfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/91d8dc6c23.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+      <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                
+                <li><a href="#header">Home</a> </li>
+                <li><a href="#about">About</a> </li>
+                <li><a href="#services">Services</a> </li>
+                <li><a href="#portfolio">Portfolio</a> </li>
+                <li><a href="#contact">contact</a> </li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>DIPLOMA STUDENT</p>
+            <h1>Hello, I'm <span>Sourav Dey</span><br> from India</h1>
+        </div>
+        
+      </div>  
+    </div>
+    <!--------------about------- -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png" >
+            </div>
+            <div class="about-col-2">
+                
+                <h1 class="sub-title">About me</h1>
+                <p>
+                    I am Sourav Dey, an aspiring computer science student pursuing a diploma in this dynamic field. At the age of 18, I am committed to learning, growth, and contributing meaningfully to the tech industry.
+                </p>
+                <div class="tab-titles">
+                   <p class="tab-links active-link" onclick="opentab('skills')">Skills</p> 
+                   <p class="tab-links" onclick="opentab('education')" >Education</p> 
+                   <p class="tab-links" onclick="opentab('expriences')">Experience</p> 
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>PHOTOGRAPHY</span><Br>Photography is my way of expressing myself </Br></li>
+                        <li><span>Sense of Humor</span><Br>A tendency of particular cognitive expriences to provoke laughter and provide amusement</Br></li>
+                        <li><span>App Development</span><Br>Building Android/iOS apps </Br></li>
+                    </ul>
+                </div>
+                <div class="tab-contents "id="education">
+                    <ul><li><span>2026</span><Br>Diploma in Computer Science and Technology from KG Engineering Institute</Br></li>
+                        <li><span>2023</span><Br>passed Higher Secondary Examination from Goghat High School.</Br></li>
+                        <li><span>2021</span><Br>Passed Secondary Examination from Goghat High  School.</Br></li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents"id="expriences">
+                    <ul>
+                        <li><span>2023</span><Br>Completed Industrial Internship on IOT from ARDENT </Br></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------services-------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">MY SERVICES</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>i can also cretae web design</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>i can also cretae web design</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>i can also cretae web design</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------------portfolio----------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">MY WORKS</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Social Midia App</h3>
+                    <p>the app connects you to the talented people
+                        download it from play store.
+                    </p>
+                    <a href="https://www.facebook.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>the app connects you to the talented people
+                        download it from play store.
+                    </p>
+                    <a href="https://open.spotify.com/user/31bl3fna6z5awimrtkavtuamahvq?si=DaCj0x4ARgK8xBQecnusaQ"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Online Shooping App</h3>
+                    <p>the app connects you to the talented people
+                        download it from play store.
+                    </p>
+                    <a href="https://www.amazon.in/?tag=msndeskstdin-21&ref=pd_sl_1p5yojovzb_e&adgrpid=1315017564951826&hvadid=82188862025546&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=1677&hvtargid=kwd-82189528234025:loc-90&hydadcr=14452_2334185"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- --------------contact----------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+               <h1 class="sub-title">Contact me</h1> 
+               <p><i class="fa-sharp fa-solid fa-paper-plane"></i> sdey85752@gmail.com</p>
+               <p><i class="fa-sharp fa-solid fa-square-phone"></i> 9339819449</p>
+               <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100051083806448&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/souravdey6454?igsh=MXdhbDE2MmdqcGc3"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/sdey85752?t=GOXlAFWmlo4JOlYhINxTAQ&s=09"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.threads.net/@souravdey6454"><i class="fa-brands fa-threads"></i></a>
+               </div>
+<!-- --- download cv----------- -->               
+               <a href="images/MYRESUME.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" >
+                   <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @sourav. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right="0";
+}
+
+function closemenu(){
+    sidemenu.style.right="-200px";
+}
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyheA3YbuGUnvyl7Yj7R8A272UlLqXIvvAWHulDA_37ktbra3ldZCvJfzDxjCIjhBkBQg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
